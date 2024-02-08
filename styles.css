@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand h1 {
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.search-input {
+  padding: 5px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.promo-section {
+  background-color: #3498db;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  height: 1cm;
+}
+
+.promo-item {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.image-section {
+  text-align: center;
+  margin: 20px;
+}
+
+.vertical-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-image {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.top-image {
+  order: -1;
+}
+
+.center-image {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  position: relative;
+}
+
+.light-pink-box {
+  background-color: #fce4ec;
+}
+
+.center-image-content {
+  width: 100%;
+  height: 100%;
+}
+
+.shop-now-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e74c3c;
+}
